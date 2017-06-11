@@ -9,10 +9,11 @@ Transform text into emojis
 
 ## Usage
 
+    ```javascript
     const emojify = require('node-emojify');
 
     const sentance = emojify('node is :thumbsup:');
-  
+    ```
   
   Output should be `node is 👍`
 
