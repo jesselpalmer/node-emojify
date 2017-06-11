@@ -6,6 +6,7 @@
   "scripts": {
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "lint": "standard",
+    "postinstall": "npm run cover",
     "test": "npm run lint && mocha --reporter spec"
   },
   "repository": {
