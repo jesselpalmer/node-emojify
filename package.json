@@ -24,6 +24,7 @@
   "homepage": "https://github.com/jesselpalmer/node-emojify#readme",
   "devDependencies": {
     "chai": "4.0.2",
-    "mocha": "3.4.2"
+    "mocha": "3.4.2",
+    "standard": "10.0.2"
   }
 }
