@@ -1,10 +1,10 @@
 const emojis = {
-    poop: '💩',
-    smile: '😀',
-    smirk: '😏',
-    thumbsdown: '👎',
-    thumbsup: '👍',
-    wink: '😉'
+  poop: '💩',
+  smile: '😀',
+  smirk: '😏',
+  thumbsdown: '👎',
+  thumbsup: '👍',
+  wink: '😉'
 }
 
 module.exports = emojis
