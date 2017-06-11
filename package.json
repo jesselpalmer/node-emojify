@@ -4,7 +4,8 @@
   "description": "Transform text into emojis",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha --reporter spec"
+    "test": "npm run lint && mocha --reporter spec",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
