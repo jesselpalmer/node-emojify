@@ -1,5 +1,5 @@
 {
-  "name": "emojifier",
+  "name": "node-emojify",
   "version": "0.0.1",
   "description": "Transform text into emojis",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jesselpalmer/emojifier.git"
+    "url": "git+https://github.com/jesselpalmer/node-emojify.git"
   },
   "keywords": [
     "emojis"
@@ -16,7 +16,7 @@
   "author": "Jesse Palmer <jesselpalmer@gmail.com> (http://jesselpalmer.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jesselpalmer/emojifier/issues"
+    "url": "https://github.com/jesselpalmer/node-emojify/issues"
   },
-  "homepage": "https://github.com/jesselpalmer/emojifier#readme"
+  "homepage": "https://github.com/jesselpalmer/node-emojify#readme"
 }
