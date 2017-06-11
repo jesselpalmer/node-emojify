@@ -8,8 +8,9 @@ const isWordEscaped = word => {
 }
 
 const getEmoji = word => {
-  word = word.slice(1, word.length - 1)
-  return emojis[word] || `:${word}:`
+  const trimmedWord = word.slice(1, word.length - 1)
+
+  return emojis[trimmedWord] || `:${trimmedWord}:`
 }
 
 const emojify = text => {
