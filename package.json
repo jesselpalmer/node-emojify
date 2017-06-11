@@ -1,0 +1,22 @@
+{
+  "name": "emojifier",
+  "version": "0.0.1",
+  "description": "Transform text into emojis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesselpalmer/emojifier.git"
+  },
+  "keywords": [
+    "emojis"
+  ],
+  "author": "Jesse Palmer <jesselpalmer@gmail.com> (http://jesselpalmer.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesselpalmer/emojifier/issues"
+  },
+  "homepage": "https://github.com/jesselpalmer/emojifier#readme"
+}
