@@ -9,6 +9,8 @@ Transform text into emojis
 
 ## Usage
 
+  Text that you would like to convert into emojis must be surrounded by colons, like `:smile:`.
+  
     const emojify = require('node-emojify');
 
     const sentance = emojify('node is :thumbsup:');
