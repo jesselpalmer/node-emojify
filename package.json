@@ -4,8 +4,9 @@
   "description": "Transform text into emojis",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && mocha --reporter spec",
-    "lint": "standard"
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
+    "lint": "standard",
+    "test": "npm run lint && mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
   "homepage": "https://github.com/jesselpalmer/node-emojify#readme",
   "devDependencies": {
     "chai": "4.0.2",
+    "coveralls": "2.13.1",
+    "istanbul": "0.4.5",
     "mocha": "3.4.2",
     "standard": "10.0.2"
   }
