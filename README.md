@@ -17,7 +17,8 @@ Transform text into emojis
   
   Output should be `node is 👍`
 
-  The supported emojis can be found at https://github.com/jesselpalmer/node-emojify/blob/master/emojis.js.
+  If the emoji isn't supported the text will simply be ignored and not be transformed. The supported emojis can be found at https://github.com/jesselpalmer/node-emojify/blob/master/emojis.js.
+  
 ## Tests
 
   `npm test`
