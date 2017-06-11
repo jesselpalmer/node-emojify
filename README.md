@@ -15,7 +15,7 @@ Transform text into emojis
   
   Output should be `node is 👍`
 
-
+  The supported emojis can be found at https://github.com/jesselpalmer/node-emojify/blob/master/emojis.js.
 ## Tests
 
   `npm test`
