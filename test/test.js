@@ -24,8 +24,13 @@ describe('emojify', () => {
     expect(result).to.equal('node is 👍')
   })
 
-  it('should do nothing if word is not an emoji', () => {
+  it('should do nothing if the word is not an emoji', () => {
     const result = emojify('I don\'t think this will ever be an emoji :seganike:')
     expect(result).to.equal('I don\'t think this will ever be an emoji :seganike:')
+  })
+
+  it('should do nothing if the word has a space in between the word and colons', () => {
+    const result = emojify('This shouldn\'t work : smirk :')
+    expect(result).to.equal('This shouldn\'t work : smirk :')
   })
 })
