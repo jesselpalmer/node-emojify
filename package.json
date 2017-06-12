@@ -1,6 +1,6 @@
 {
   "name": "node-emojify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Transform text into emojis",
   "main": "lib/emojify.js",
   "scripts": {
