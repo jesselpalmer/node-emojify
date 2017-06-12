@@ -20,7 +20,36 @@ Transform text into emojis
   
   Output should be `node is 👍`
 
-  If the emoji isn't supported the text will simply be ignored and not be transformed. The supported emojis can be found at https://github.com/jesselpalmer/node-emojify/blob/master/emojis.js.
+  If the emoji isn't supported the text will simply be ignored and not be transformed. 
+  
+ ### Supported emojis
+  
+  Supported emojis can be found in different files using the table below: 
+  
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>Filename</th>
+    </tr>
+    <tr>
+      <td>Animal</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/animal-emojis.js">animal-emojis.js</a></td>
+    </tr>
+    <tr>
+      <td>Food</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/food-emojis.js">food-emojis.js</a></td>
+    </tr>
+    <tr>
+      <td>Nature</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/nature-emojis.js">nature-emojis.js</a></td>
+    </tr>
+    <tr>
+      <td>People</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/people-emojis.js">people-emojis.js</a></td>
+    </tr>
+   </table>
+  
+  If there is an emoji that you need and is not available, please file an [issue](https://github.com/jesselpalmer/node-emojify/issues) or create a [pull request](https://github.com/jesselpalmer/node-emojify/pulls).
   
 ## Tests
 
@@ -28,4 +57,4 @@ Transform text into emojis
 
 ## Contributing
 
-Pull Requests are welcome! Please make sure that any new or changed functionality need to have unit tests accompanied with the PR. Make sure that you lint (`npm run lint`) and test your code (`npm test`).
+Pull requests are welcome! Please make sure that any new or changed functionality need to have unit tests accompanied with the PR. Make sure that you lint (`npm run lint`) and test your code (`npm test`).
