@@ -20,7 +20,11 @@ Transform text into emojis
   
   Output should be `node is 👍`
 
-  If the emoji isn't supported the text will simply be ignored and not be transformed. Supported emojis are in different files and can be found using the table below: 
+  If the emoji isn't supported the text will simply be ignored and not be transformed. 
+  
+ ### Supported emojis
+  
+  Supported emojis can be found in different files using the table below: 
   
   <table>
     <tr>
