@@ -10,8 +10,8 @@ describe('emojify', () => {
   })
 
   it('should convert an emoji correctly at the beginning of sentance', () => {
-    const result = emojify(':wink: should work at the beginning of sentance')
-    expect(result).to.equal('😉 should work at the beginning of sentance')
+    const result = emojify(':cat: should work at the beginning of sentance')
+    expect(result).to.equal('🐈 should work at the beginning of sentance')
   })
 
   it('should convert an emoji correctly in the middle of sentance', () => {
