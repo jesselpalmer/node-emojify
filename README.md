@@ -29,23 +29,23 @@ Transform text into emojis
     </tr>
     <tr>
       <td>Animal</td>
-      <td>(animal-emojis.js)[https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/animal-emojis.js]</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/animal-emojis.js">animal-emojis.js</a></td>
     </tr>
     <tr>
       <td>Food</td>
-      <td>(food-emojis.js)[https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/food-emojis.js]</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/food-emojis.js">food-emojis.js</a></td>
     </tr>
     <tr>
       <td>Nature</td>
-      <td>(nature-emojis.js)[https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/nature-emojis.js]</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/nature-emojis.js">nature-emojis.js</a></td>
     </tr>
     <tr>
       <td>People</td>
-      <td>(people-emojis.js)[https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/people-emojis.js]</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/people-emojis.js">people-emojis.js</a></td>
     </tr>
    </table>
   
-  If there is an emoji that you need and is not available, please file an (issue)[https://github.com/jesselpalmer/node-emojify/issues].
+  If there is an emoji that you need and is not available, please file an [issue](https://github.com/jesselpalmer/node-emojify/issues).
   
 ## Tests
 
