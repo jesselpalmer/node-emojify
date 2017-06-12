@@ -2,7 +2,7 @@
   "name": "node-emojify",
   "version": "0.0.3",
   "description": "Transform text into emojis",
-  "main": "index.js",
+  "main": "lib/emojify.js",
   "scripts": {
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "lint": "standard",

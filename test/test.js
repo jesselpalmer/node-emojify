@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 
 const expect = require('chai').expect
-const emojify = require('../index')
+const emojify = require('../lib/emojify')
 
 describe('emojify', () => {
   it('should convert an emoji correctly', () => {
