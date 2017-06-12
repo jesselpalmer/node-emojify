@@ -10,10 +10,7 @@
     "postinstall": "npm run cover",
     "test": "npm run lint && mocha --reporter spec"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jesselpalmer/node-emojify.git"
-  },
+  "repository": "git+https://github.com/jesselpalmer/node-emojify.git",
   "engines": {
     "node": ">=4.2.4"
   },
