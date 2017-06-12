@@ -20,7 +20,20 @@ Transform text into emojis
   
   Output should be `node is 👍`
 
-  If the emoji isn't supported the text will simply be ignored and not be transformed. The supported emojis can be found at https://github.com/jesselpalmer/node-emojify/blob/master/emojis.js.
+  If the emoji isn't supported the text will simply be ignored and not be transformed. Supported emojis are in different files and can be found using the table below: 
+  
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>Filename</th>
+    </tr>
+    <tr>
+      <td>Animal</td>
+      <td>[animal-emojis.js](https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/animal-emojis.js)</td>
+    </tr>
+   </table>
+   
+  can be found at https://github.com/jesselpalmer/node-emojify/blob/master/emojis.js.
   
 ## Tests
 
