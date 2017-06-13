@@ -22,7 +22,7 @@ Transform text into emojis
 
   If the emoji isn't supported the text will simply be ignored and not be transformed. 
   
- ### Supported emojis
+ **Supported emojis**
   
   Supported emojis can be found in different files using the table below: 
   
