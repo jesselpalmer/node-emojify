@@ -15,13 +15,23 @@ describe('emojify', () => {
   })
 
   it('should convert an emoji correctly in the middle of sentance', () => {
-    const result = emojify('today the weather :thumbsdown: but tomorrow will be better')
-    expect(result).to.equal('today the weather 👎 but tomorrow will be better')
+    const result = emojify('Today the weather :thumbsdown: but tomorrow will be better')
+    expect(result).to.equal('Today the weather 👎 but tomorrow will be better')
   })
 
   it('should convert an emoji correctly at the end of sentance', () => {
-    const result = emojify('node is :thumbsup:')
-    expect(result).to.equal('node is 👍')
+    const result = emojify('Node.js is :thumbsup:')
+    expect(result).to.equal('Node.js is 👍')
+  })
+
+  it('should convert an emoji if the keyword is UPPERCASE', () => {
+    const result = emojify('JavaScript is :FLAME:')
+    expect(result).to.equal('JavaScript is 🔥')
+  })
+
+  it('should convert an emoji if the keyword is MiXedCaSe', () => {
+    const result = emojify('I could go for a :TaCo:')
+    expect(result).to.equal('I could go for a 🌮')
   })
 
   it('should do nothing if the word is not an emoji', () => {
