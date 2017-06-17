@@ -9,12 +9,11 @@ node-emojify
 
 Transform text into emojis
 
-## [Live Demo](https://apis.guru/graphql-voyager/)
-[![voyager demo](./docs/demo-gif.gif)](https://apis.guru/graphql-voyager/)
-
 ## Installation
-
+  
+  ```shell
   npm install node-emojify
+  ```
 
 ## Usage
 
@@ -61,7 +60,9 @@ Text that you would like to convert into emojis must be surrounded by colons, li
   
 ## Tests
 
+  ```shell
   npm test
+  ```
 
 ## Contributing
 
