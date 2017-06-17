@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/jesselpalmer/node-emojify.svg?branch=master)](https://travis-ci.org/jesselpalmer/node-emojify)
 [![Coverage Status](https://coveralls.io/repos/github/jesselpalmer/node-emojify/badge.svg?branch=master)](https://coveralls.io/github/jesselpalmer/node-emojify?branch=master)
-[![Coverage Status](https://img.shields.io/david/jesselpalmer/node-emojify.svg)]
 [![dependencies Status](https://david-dm.org/jesselpalmer/node-emojify/status.svg)](https://david-dm.org/jesselpalmer/node-emojify)
 [![devDependencies Status](https://david-dm.org/jesselpalmer/node-emojify/dev-status.svg)](https://david-dm.org/jesselpalmer/node-emojify?type=dev)
+
 
 node-emojify
 ------------
