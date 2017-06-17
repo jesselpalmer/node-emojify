@@ -1,11 +1,8 @@
-[![npm version](https://badge.fury.io/js/node-emojify.svg)](https://badge.fury.io/js/node-emojify)
 [![npm](https://img.shields.io/npm/dw/node-emojify.svg)](https://www.npmjs.com/package/node-emojify)
 [![Build Status](https://travis-ci.org/jesselpalmer/node-emojify.svg?branch=master)](https://travis-ci.org/jesselpalmer/node-emojify)
 [![Coverage Status](https://coveralls.io/repos/github/jesselpalmer/node-emojify/badge.svg?branch=master)](https://coveralls.io/github/jesselpalmer/node-emojify?branch=master)
 [![dependencies Status](https://david-dm.org/jesselpalmer/node-emojify/status.svg)](https://david-dm.org/jesselpalmer/node-emojify)
 [![devDependencies Status](https://david-dm.org/jesselpalmer/node-emojify/dev-status.svg)](https://david-dm.org/jesselpalmer/node-emojify?type=dev)    
-[![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/jesselpalmer/node-emojify/master/LICENSE.md)
-
 
 node-emojify
 ------------
