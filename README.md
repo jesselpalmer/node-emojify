@@ -11,7 +11,7 @@ Transform text into emojis
 
 ## Installation
   
-  ```shell
+  ```
   npm install node-emojify
   ```
 
@@ -60,7 +60,7 @@ Text that you would like to convert into emojis must be surrounded by colons, li
   
 ## Tests
 
-  ```shell
+  ```
   npm test
   ```
 
