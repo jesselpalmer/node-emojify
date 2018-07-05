@@ -60,6 +60,10 @@ Text that you would like to convert into emojis must be surrounded by colons, li
       <td>People</td>
       <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/people-emojis.js">people-emojis.js</a></td>
     </tr>
+    <tr>
+      <td>Travel</td>
+      <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/travel-emojis.js">travel-emojis.js</a></td>
+    </tr>
    </table>
   
   If there is an emoji that you need and is not available, please file an [issue](https://github.com/jesselpalmer/node-emojify/issues) or create a [pull request](https://github.com/jesselpalmer/node-emojify/pulls).
