@@ -7,13 +7,14 @@
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "test": "npm run lint && npm run cover"
+    "test": "npm run cover"
   },
   "repository": "git+https://github.com/jesselpalmer/node-emojify.git",
   "engines": {
     "node": ">=4.2.4"
   },
   "pre-commit": [
+    "lint",
     "test"
   ],
   "keywords": [
