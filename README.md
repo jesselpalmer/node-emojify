@@ -7,13 +7,23 @@
 node-emojify
 ------------
 
-Transform text into emojis 🚀. The goal of the project is to support all of the emojis that can be
+Transform text into emojis 🚀. 
+
+## Support
+
+If you find any other this software useful or just think that I'm a cool guy 😊, please feel free to 
+buy me a cup of coffee. I appreciate the support!
+  
+<a href='https://ko-fi.com/Z8Z5CIP0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+## Goal
+
+The goal of the project is to support all of the emojis that can be
 found at [Emojipedia](https://emojipedia.org/). The shortnames (ex. `:fire:`) that are supported are 
 the ones that can be found Emojipedia. If the shortname isn't in Emojipedia, then the shortname in 
 Slack are used. If the shortname isn't in Slack, then the shortname in GitHub is used. If the
 shortname cannot be found in Emojipedia, Slack, or GitHub, then the name of the emoji in Emojipedia is
 used and underscores are used to concatenate multiple words.
-
 
 ## Support Status
 
@@ -27,41 +37,34 @@ that version.
     <th>Status</th>
   </tr>
   <tr>
-    <td>Emoji 1.0</td>
+    <td>[Emoji 1.0](https://emojipedia.org/emoji-1.0/)</td>
     <td>In development 🙂</td> 
   </tr>
   <tr>
-    <td>Emoji 2.0</td>
+    <td>[Emoji 2.0](https://emojipedia.org/emoji-2.0/)</td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>Emoji 3.0</td>
+    <td>[Emoji 3.0](https://emojipedia.org/emoji-3.0/)</td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>Emoji 4.0</td>
+    <td>[Emoji 4.0](https://emojipedia.org/emoji-4.0/)</td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>Emoji 5.0</td>
+    <td>[Emoji 5.0](https://emojipedia.org/emoji-5.0/)</td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>Emoji 11.0</td>
+    <td>[Emoji 11.0](https://emojipedia.org/emoji-11.0/)</td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>Emoji 12.0</td>
+    <td>[Emoji 12.0](https://emojipedia.org/emoji-12.0/)</td>
     <td>Not supported 🙁</td>  
   </tr>
 </table>
-
-## Support
-
-If you find any other this software useful or just think that I'm a cool guy 😊, please feel free to 
-buy me a cup of coffee. I appreciate the support!
-  
-<a href='https://ko-fi.com/Z8Z5CIP0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Installation
   
@@ -95,23 +98,23 @@ Text that you would like to convert into emojis must be surrounded by colons, li
       <th>Filename</th>
     </tr>
     <tr>
-      <td>Animal</td>
+      <td>🐈 Animal</td>
       <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/animal-emojis.js">animal-emojis.js</a></td>
     </tr>
     <tr>
-      <td>Food</td>
+      <td>🍔 Food</td>
       <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/food-emojis.js">food-emojis.js</a></td>
     </tr>
     <tr>
-      <td>Nature</td>
+      <td>🔥 Nature</td>
       <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/nature-emojis.js">nature-emojis.js</a></td>
     </tr>
     <tr>
-      <td>People</td>
+      <td>🙃 People</td>
       <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/people-emojis.js">people-emojis.js</a></td>
     </tr>
     <tr>
-      <td>Travel</td>
+      <td>🗻 Travel</td>
       <td><a href="https://github.com/jesselpalmer/node-emojify/blob/master/lib/emojis/travel-emojis.js">travel-emojis.js</a></td>
     </tr>
    </table>
