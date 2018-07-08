@@ -7,9 +7,13 @@
 node-emojify
 ------------
 
-Transform text into emojis. The goal of the project is to support all of the emojis that can be found 
-at https://emojipedia.org/. The shortnames (ex. `:fire:`) that are supported are the ones that can be 
-found https://emojipedia.org/.
+Transform text into emojis 🚀. The goal of the project is to support all of the emojis that can be
+found at [Emojipedia](https://emojipedia.org/). The shortnames (ex. `:fire:`) that are supported are 
+the ones that can be found Emojipedia. If the shortname isn't in Emojipedia, then the shortname in 
+Slack are used. If the shortname isn't in Slack, then the shortname in GitHub is used. If the
+shortname cannot be found in Emojipedia, Slack, or GitHub, then the name of the emoji in Emojipedia is
+used and underscores are used to concatenate multiple words.
+
 
 ## Support Status
 
@@ -24,31 +28,31 @@ that version.
   </tr>
   <tr>
     <td>Emoji 1.0</td>
-    <td style="background-color:yellow;">In development</td> 
+    <td>In development 🙂</td> 
   </tr>
   <tr>
     <td>Emoji 2.0</td>
-    <td style="background-color:red; color:white;">Not supported</td>  
+    <td>Not supported 🙁</td>  
   </tr>
   <tr>
     <td>Emoji 3.0</td>
-    <td style="background-color:red; color:white;">Not supported</td> 
+    <td>Not supported 🙁</td>  
   </tr>
   <tr>
     <td>Emoji 4.0</td>
-    <td style="background-color:red; color:white;">Not supported</td> 
+    <td>Not supported 🙁</td>  
   </tr>
   <tr>
     <td>Emoji 5.0</td>
-    <td style="background-color:red; color:white;">Not supported</td> 
+    <td>Not supported 🙁</td>  
   </tr>
   <tr>
     <td>Emoji 11.0</td>
-    <td style="background-color:red; color:white;">Not supported</td> 
+    <td>Not supported 🙁</td>  
   </tr>
   <tr>
     <td>Emoji 12.0</td>
-    <td style="background-color:red; color:white;">Not supported</td> 
+    <td>Not supported 🙁</td>  
   </tr>
 </table>
 
