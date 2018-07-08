@@ -13,6 +13,9 @@
   "engines": {
     "node": ">=4.2.4"
   },
+  "pre-commit": [
+    "test"
+  ],
   "keywords": [
     "emojis"
   ],
@@ -27,6 +30,7 @@
     "coveralls": "3.0.2",
     "istanbul": "0.4.5",
     "mocha": "5.2.0",
+    "pre-commit": "^1.2.2",
     "standard": "11.0.1"
   }
 }
