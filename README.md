@@ -2,12 +2,11 @@
 [![Build Status](https://travis-ci.org/jesselpalmer/node-emojify.svg?branch=master)](https://travis-ci.org/jesselpalmer/node-emojify)
 [![Coverage Status](https://coveralls.io/repos/github/jesselpalmer/node-emojify/badge.svg?branch=master)](https://coveralls.io/github/jesselpalmer/node-emojify?branch=master)
 [![dependencies Status](https://david-dm.org/jesselpalmer/node-emojify/status.svg)](https://david-dm.org/jesselpalmer/node-emojify)
-[![devDependencies Status](https://david-dm.org/jesselpalmer/node-emojify/dev-status.svg)](https://david-dm.org/jesselpalmer/node-emojify?type=dev)    
+[![devDependencies Status](https://david-dm.org/jesselpalmer/node-emojify/dev-status.svg)](https://david-dm.org/jesselpalmer/node-emojify?type=dev)
 
-node-emojify
-------------
+# node-emojify
 
-Transform text into emojis 🚀. 
+Transform text into emojis 🚀.
 
 ## Support
 
@@ -37,31 +36,31 @@ that version.
     <th>Status</th>
   </tr>
   <tr>
-    <td>[Emoji 1.0](https://emojipedia.org/emoji-1.0/)</td>
+    <td><a href=https://emojipedia.org/emoji-1.0/>Emoji 1.0</a></td>
     <td>In development 🙂</td> 
   </tr>
   <tr>
-    <td>[Emoji 2.0](https://emojipedia.org/emoji-2.0/)</td>
+    <td><a href=https://emojipedia.org/emoji-2.0/>Emoji 2.0</a></td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>[Emoji 3.0](https://emojipedia.org/emoji-3.0/)</td>
+     <td><a href=https://emojipedia.org/emoji-3.0/>Emoji 3.0</a></td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>[Emoji 4.0](https://emojipedia.org/emoji-4.0/)</td>
+     <td><a href=https://emojipedia.org/emoji-4.0/>Emoji 4.0</a></td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>[Emoji 5.0](https://emojipedia.org/emoji-5.0/)</td>
+    <td><a href=https://emojipedia.org/emoji-5.0/>Emoji 5.0</a></td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>[Emoji 11.0](https://emojipedia.org/emoji-11.0/)</td>
+    <td><a href=https://emojipedia.org/emoji-11.0/>Emoji 11.0</a></td>
     <td>Not supported 🙁</td>  
   </tr>
   <tr>
-    <td>[Emoji 12.0](https://emojipedia.org/emoji-12.0/)</td>
+     <td><a href=https://emojipedia.org/emoji-12.0/>Emoji 12.0</a></td>
     <td>Not supported 🙁</td>  
   </tr>
 </table>
