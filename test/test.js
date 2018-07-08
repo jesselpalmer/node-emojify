@@ -5,7 +5,7 @@ const emojify = require('../lib/emojify')
 
 describe('emojify', () => {
   it('should convert an emoji correctly', () => {
-    const result = emojify(':smile:')
+    const result = emojify(':grinning:')
     expect(result).to.equal('😀')
   })
 
