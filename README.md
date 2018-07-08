@@ -7,11 +7,55 @@
 node-emojify
 ------------
 
-Transform text into emojis   
+Transform text into emojis. The goal of the project is to support all of the emojis that can be found 
+at https://emojipedia.org/. The shortnames (ex. `:fire:`) that are supported are the ones that can be 
+found https://emojipedia.org/.
+
+## Support Status
+
+Below is a table of the emojis that are supported by version. There may be some emojis that are 
+supported in the different verisons, but there hasn't been a concerted effort to add all emojis from 
+that version.
+
+<table>
+  <tr>
+    <th>Verison</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>Emoji 1.0</td>
+    <td style="background-color:yellow;">In development</td> 
+  </tr>
+  <tr>
+    <td>Emoji 2.0</td>
+    <td style="background-color:red; color:white;">Not supported</td>  
+  </tr>
+  <tr>
+    <td>Emoji 3.0</td>
+    <td style="background-color:red; color:white;">Not supported</td> 
+  </tr>
+  <tr>
+    <td>Emoji 4.0</td>
+    <td style="background-color:red; color:white;">Not supported</td> 
+  </tr>
+  <tr>
+    <td>Emoji 5.0</td>
+    <td style="background-color:red; color:white;">Not supported</td> 
+  </tr>
+  <tr>
+    <td>Emoji 11.0</td>
+    <td style="background-color:red; color:white;">Not supported</td> 
+  </tr>
+  <tr>
+    <td>Emoji 12.0</td>
+    <td style="background-color:red; color:white;">Not supported</td> 
+  </tr>
+</table>
 
 ## Support
 
-If you find any other this software useful or just think that I'm a cool guy 😊, please feel free to buy me a cup of coffee. I appreciate the support!
+If you find any other this software useful or just think that I'm a cool guy 😊, please feel free to 
+buy me a cup of coffee. I appreciate the support!
   
 <a href='https://ko-fi.com/Z8Z5CIP0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
@@ -23,12 +67,14 @@ If you find any other this software useful or just think that I'm a cool guy �
 
 ## Usage
 
-Text that you would like to convert into emojis must be surrounded by colons, like `:smile:`.
+Text that you would like to convert into emojis must be surrounded by colons, like `:grinning:`.
   
   ```js
   const emojify = require('node-emojify')
 
-  const sentance = emojify('node is :thumbsup:')
+  const sentence = emojify('node is :thumbsup:')
+
+  console.log(sentence)
   ```
   
   Output should be `node is 👍`
