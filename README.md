@@ -10,7 +10,7 @@ Transform text into emojis 🚀.
 
 ## Support
 
-If you find any other this software useful or just think that I'm a cool guy 😊, please feel free to 
+If you find any other this software useful or just think that I'm a cool guy 😊, please feel free to
 buy me a cup of coffee. I appreciate the support!
   
 <a href='https://ko-fi.com/Z8Z5CIP0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
@@ -18,16 +18,16 @@ buy me a cup of coffee. I appreciate the support!
 ## Goal
 
 The goal of the project is to support all of the emojis that can be
-found at [Emojipedia](https://emojipedia.org/). The shortcodess (ex. `:fire:`) that are supported are 
-the ones that can be found Emojipedia. If the shortcode isn't in Emojipedia, then the shortcode in 
+found at [Emojipedia](https://emojipedia.org/). The shortcodess (ex. `:fire:`) that are supported are
+the ones that can be found Emojipedia. If the shortcode isn't in Emojipedia, then the shortcode in
 Slack are used. If the shortcode isn't in Slack, then the shortcode in GitHub is used. If the
 shortcode cannot be found in Emojipedia, Slack, or GitHub, then the name of the emoji in Emojipedia is
 used and underscores are used to concatenate multiple words.
 
 ## Support Status
 
-Below is a table of the emojis that are supported by version. There may be some emojis that are 
-supported in the different verisons, but there hasn't been a concerted effort to add all emojis from 
+Below is a table of the emojis that are supported by version. There may be some emojis that are
+supported in the different verisons, but there hasn't been a concerted effort to add all emojis from
 that version.
 
 <table>
@@ -41,40 +41,40 @@ that version.
   </tr>
   <tr>
     <td><a href=https://emojipedia.org/emoji-2.0/>Emoji 2.0</a></td>
-    <td>Not supported 🙁</td>  
+    <td>Not supported yet 🙁</td>  
   </tr>
   <tr>
      <td><a href=https://emojipedia.org/emoji-3.0/>Emoji 3.0</a></td>
-    <td>Not supported 🙁</td>  
+    <td>Not supported yet 🙁</td>  
   </tr>
   <tr>
      <td><a href=https://emojipedia.org/emoji-4.0/>Emoji 4.0</a></td>
-    <td>Not supported 🙁</td>  
+    <td>Not supported yet 🙁</td>  
   </tr>
   <tr>
     <td><a href=https://emojipedia.org/emoji-5.0/>Emoji 5.0</a></td>
-    <td>Not supported 🙁</td>  
+    <td>Not supported yet 🙁</td>  
   </tr>
   <tr>
     <td><a href=https://emojipedia.org/emoji-11.0/>Emoji 11.0</a></td>
-    <td>Not supported 🙁</td>  
+    <td>Not supported yet 🙁</td>  
   </tr>
   <tr>
      <td><a href=https://emojipedia.org/emoji-12.0/>Emoji 12.0</a></td>
-    <td>Not supported 🙁</td>  
+    <td>Not supported yet 🙁</td>  
   </tr>
 </table>
 
 ## Installation
-  
-  ```
+
+  ```bash
   npm install node-emojify
   ```
 
 ## Usage
 
 Text that you would like to convert into emojis must be surrounded by colons, like `:grinning:`.
-  
+
   ```js
   const emojify = require('node-emojify')
 
@@ -82,12 +82,12 @@ Text that you would like to convert into emojis must be surrounded by colons, li
 
   console.log(sentence)
   ```
-  
+
   Output should be `node is 👍`
 
   If the emoji isn't supported the text will simply be ignored and not be transformed. 
   
- **Supported emojis**
+### Supported emojis
   
   Supported emojis can be found in different files using the table below: 
   
@@ -122,7 +122,7 @@ Text that you would like to convert into emojis must be surrounded by colons, li
   
 ## Tests
 
-  ```
+  ```bash
   npm test
   ```
 
