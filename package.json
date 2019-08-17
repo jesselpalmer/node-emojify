@@ -28,11 +28,11 @@
   "homepage": "https://github.com/jesselpalmer/node-emojify#readme",
   "devDependencies": {
     "chai": "4.2.0",
-    "coveralls": "3.0.5",
+    "coveralls": "3.0.6",
     "istanbul": "0.4.5",
-    "mocha": "6.1.4",
+    "mocha": "6.2.0",
     "pre-commit": "1.2.2",
-    "standard": "13.0.2"
+    "standard": "13.1.0"
   },
   "dependencies": {
     "node-emojis": "0.0.2"
