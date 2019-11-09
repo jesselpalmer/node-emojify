@@ -35,6 +35,6 @@
     "standard": "13.1.0"
   },
   "dependencies": {
-    "node-emojis": "0.0.2"
+    "node-emojis": "0.0.5"
   }
 }
