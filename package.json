@@ -13,10 +13,6 @@
   "engines": {
     "node": ">=4.2.4"
   },
-  "pre-commit": [
-    "lint",
-    "test"
-  ],
   "keywords": [
     "emojis"
   ],
@@ -31,7 +27,6 @@
     "coveralls": "3.0.6",
     "istanbul": "0.4.5",
     "mocha": "6.2.0",
-    "pre-commit": "1.2.2",
     "standard": "13.1.0"
   },
   "dependencies": {

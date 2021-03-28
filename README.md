@@ -11,7 +11,7 @@ Transform text into emojis 🚀.
 ## Goal
 
 The goal of the project is to support all of the emojis that can be
-found at [Emojipedia](https://emojipedia.org/). The shortcodess (ex. `:fire:`) that are supported are
+found at [Emojipedia](https://emojipedia.org/). The shortcodes (ex. `:fire:`) that are supported are
 the ones that can be found Emojipedia. If the shortcode isn't in Emojipedia, then the shortcode in
 Slack are used. If the shortcode isn't in Slack, then the shortcode in GitHub is used. If the
 shortcode cannot be found in Emojipedia, Slack, or GitHub, then the name of the emoji in Emojipedia is
